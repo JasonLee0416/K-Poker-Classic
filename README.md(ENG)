@@ -1,0 +1,32 @@
+# 🎴 K-Poker Classic: The Authentic Go-Stop Experience
+
+## 📖 Overview
+"K-Poker Classic" is a modern, HTML5-based revival of the traditional Korean card game, Go-Stop. Built to seamlessly replace legacy Flash-based games, this project offers a premium, strictly PVE (Player vs. Environment) offline experience running directly in the browser with zero installation required.
+
+While the branding is modernized, the core engine faithfully and rigorously implements the beloved "Hangame Shin-Matgo" ruleset, ensuring an authentic and dynamic gameplay experience driven by intelligent computer AI.
+
+## ✨ Key Features
+* **The Authentic Ruleset:** Strictly adheres to the complex traditional rules, perfectly recreating dynamic in-game missions, bonus cards (2-Pi, 3-Pi), and special multiplier conditions (Bomb, Shaking, President).
+* **Pure PVE Offline Mode:** No internet connection, no matchmaking, no waiting. Enjoy a seamless, uninterrupted game against a calculated computer opponent anywhere, anytime.
+* **Heuristic AI Opponent:** Features an intelligent, heuristic-based AI that calculates probabilities and optimal moves, providing a challenging yet fair gameplay experience without relying on heavy machine learning models.
+* **Intuitive & Accessible Design:** Crafted for universal accessibility. Features large, high-visibility card graphics, straightforward controls, and fully automated score and probability calculations, making it perfectly suited for players seeking a comfortable, stress-free gaming environment.
+* **High-Impact Audiovisual Feedback:** Replicates the satisfying physical "slap" of the cards and includes dynamic visual effects for key moments (Go, Stop, Mission Success) to maximize the game's signature tension.
+
+## 🛠️ Tech Stack
+* **Frontend & Rendering:** HTML5 Canvas, Vanilla JavaScript (ES6+) / TypeScript
+* **Game Engine:** [Phaser.js / PixiJS] (Optimized for high-performance 2D rendering)
+* **Styling:** CSS3 (Responsive design for seamless play across desktop and tablet devices)
+
+## 🚀 Development Milestones
+1.  **Core Rule Engine (`Phase 1`):** * Build the foundational logic, card deck management, and turn-based state machine.
+    * Implement the complex scoring system and exception handling (Bbuck, Ddadak, Sweeping).
+2.  **AI Development (`Phase 2`):** * Program the heuristic AI to evaluate board states and make optimal card selections.
+3.  **UI/UX & Audio Implementation (`Phase 3`):** * Integrate card assets, animations, and sound effects. 
+    * Refine the interface for maximum clarity and ease of use.
+4.  **Testing & Optimization (`Phase 4`):** * Rigorous bug testing of edge cases in the ruleset and cross-browser performance tuning.
+
+## 🎮 How to Run
+*(Instructions on how to clone the repository and run the `index.html` locally will be added here as development progresses.)*
+
+## 📜 License
+This project is licensed under the MIT License.
